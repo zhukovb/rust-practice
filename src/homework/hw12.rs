@@ -33,9 +33,9 @@ pub fn gen_shipments(n: usize) -> Vec<u32> {
 }
 
 #[cfg(test)]
-mod tests {
+mod tests {   
     use super::*;
-
+   
     #[test]
     fn test_count_permutation_examples() {
         let ex1 = vec![8, 2, 2, 4, 4];
@@ -47,6 +47,7 @@ mod tests {
         let imposs = vec![1, 2, 3];
         assert_eq!(count_permutation(&imposs), None);
     }
+ 
 
     #[test]
     fn test_gen_shipments() {
