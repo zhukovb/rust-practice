@@ -35,6 +35,6 @@ mod tests {
 
         for &(n, ref out) in &test_data {
             assert_eq!(gray(n), *out);
-        }
+        } 
     }
 }
