@@ -27,6 +27,6 @@ mod tests {
         for &(a, b) in &data {
             assert_eq!(invert_the_case(a.to_string()), b.to_string());
             assert_eq!(invert_the_case(b.to_string()), a.to_string());
-        }
+        } 
     }
 }
