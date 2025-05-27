@@ -1,4 +1,4 @@
-/// Зсув рядка вправо на n позицій (негативні n — вліво)
+// Зсув рядка вправо на n позицій (негативні n — вліво)
 pub fn rotate2(s: &str, n: isize) -> String {
     let len = s.chars().count() as isize;
     if len == 0 {
@@ -35,4 +35,4 @@ mod tests {
             assert_eq!(rotate2(s, n), exp.to_string());
         }
     }
-}
+}//git add src/homewor k/hw09.rs git commit -m "Додав hw09: реалізація rotate2" git push origin master
