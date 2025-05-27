@@ -37,3 +37,5 @@ mod tests {
         }
     }
 }
+//git add src/homework/hw08.rs git commit -m "Додав hw08: реалізація is_prime" git push origin master
+ 
