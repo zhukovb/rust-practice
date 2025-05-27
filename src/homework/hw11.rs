@@ -82,6 +82,6 @@ mod tests {
         for data in &examples {
             // Переконаємося, що викликається без панік і повертає Some
             assert!(min_adjacent_sum(data.as_ref()).is_some());
-        }
+        } 
     }
 }
