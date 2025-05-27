@@ -12,7 +12,7 @@ fn main() {
                     // MUXA
                     let mu_xa = m * 1000 + u * 100 + x * 10 + a;
                     // множимо на одноцифровий множник A
-                    let prod = mu_xa * a;
+                    let prod = mu_xa * a;   
                     // маємо отримати чотирицифрове SLON  
                     if prod < 1000 || prod > 9999 {
                         continue;
