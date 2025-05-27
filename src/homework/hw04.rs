@@ -11,7 +11,7 @@ fn main() {
         // потім зірочки
         output.push_str(&"*".repeat(2 * i + 1));
         output.push('\n');
-    }
+    } 
 
     // Нижня половина
     for i in (0..H-1).rev() {
